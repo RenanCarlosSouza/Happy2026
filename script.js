@@ -29,7 +29,7 @@ const friendsData = {
         hint: "Qual abertura de série da Disney cê gostava de cantar quando era mais nova?",
         text: "Oii, garotinha. Passando aqui pra te desejar um feliz Ano Novo! Que Deus te abençoe hoje e sempre. Amo você. Queria ter te visto mais esse ano, tô com muita saudade. Te amo muitão.",
         photo: "karen.jpg",
-        specialImage: "karen-momento.jpg",
+        specialImage: "Karen-Momento.jpg",
         spotifyID: "3yOlyBJuViE2YWCn3higa0" // Música: Hey Jessie
     },
     "silviane": {
@@ -37,8 +37,8 @@ const friendsData = {
         pass: "casa",
         hint: "Quando cê vem pra...",
         text: "Oii, titia. Passando aqui pra te desejar um feliz Ano Novo. Esse ano foi bem complicado, né? Desculpa qualquer coisa. Queria ter te visto mais esse ano, só te vi um final de semana e passou tão rápido. Te amo muito, obrigado por tanto. Espero que esteja tudo bem por aí. A partir de janeiro vou terminar de lhe pagar as parcelas que atrasei e não paguei. Te amo. Tô com muita saudade.",
-        photo: "silviane.jpg",
-        specialImage: "silviane-momento.jpg",
+        photo: "Silviane.jpg",
+        specialImage: "Silviane-Momento.jpg",
         spotifyID: "4uUG5RXrOKz7mK1H19rZC0" // I'm Good (Blue) - Exemplo
     },
     "roberta": {
@@ -46,8 +46,8 @@ const friendsData = {
         pass: "cadeira",
         hint: "Em uma sala lotada, sempre vou guardar pra você.",
         text: "Garotinhaaa. Passando pra te desejar um feliz Ano Novo, te amo muitooo. Tô com muita saudade. Fico com o coração transbordando ao acompanhar teus stories, te ver feliz sempre me deixa feliz. Que Papai do Céu te abençoe e proteja sempre. Te amo muitão.",
-        photo: "roberta.jpg",
-        specialImage: "roberta-momento.jpg",
+        photo: "Roberta.jpg",
+        specialImage: "Roberta-Momento.jpg",
         spotifyID: "3w9VRlKPvNxj40RdUGRweH"
     },
     "vivian": {
@@ -55,8 +55,8 @@ const friendsData = {
         pass: "comida",
         hint: "Algo que te deixa feliz quando cê tá brava.",
         text: "Oii, garotinha. Passando aqui pra te desejar um feliz Ano Novo. Que Deus te abençoe e proteja sempre. Te ver feliz me deixa feliz. Obrigado por um ano incrível e por todos esses momentos, em especial o do Empório de Fátima kkk. Amo você.",
-        photo: "vivian.jpg",
-        specialImage: "vivian-momento.jpg",
+        photo: "Vivian.jpg",
+        specialImage: "Vivian-Momento.jpg",
         spotifyID: "4uUG5RXrOKz7mK1H19rZC0"
     },
     "vitoria": {
@@ -64,8 +64,8 @@ const friendsData = {
         pass: "travesseiro",
         hint: "O que a Fabrícia pegou de ti kkk",
         text: "Oiii, divaaa. Passando aqui pra te desejar um feliz Ano Novo. Que Deus te proteja e abençoe. Obrigado por tanto, amo você e sua família. Deixo aqui um momento bem legal:",
-        photo: "vitoria.jpg",
-        specialImage: "vitoria-momento.jpg",
+        photo: "Vitoria.jpg",
+        specialImage: "Vitoria-Momento.jpg",
         spotifyID: "4uUG5RXrOKz7mK1H19rZC0"
     },
     "soraia": {
@@ -73,8 +73,8 @@ const friendsData = {
         pass: "estrelas",
         hint: "O que cê colocou de especial no meu bolo de aniversário?",
         text: "Amigaaaaa, acho que esse é o primeiro ano que não passamos juntos, então um feliz Ano Novo! Que Deus te proteja e abençoe sempre. Obrigado por um ano incrível, amo estar ao seu lado e aproveitar cada momento. Deixo aqui um momento bem legal:",
-        photo: "soraia.jpg",
-        specialImage: "soraia-momento.jpg",
+        photo: "Soraia.jpg",
+        specialImage: "Soraia-Momento.jpg",
         spotifyID: "4uUG5RXrOKz7mK1H19rZC0"
     },
     "roberio": {
@@ -82,8 +82,8 @@ const friendsData = {
         pass: "2021",
         hint: "O ano que passamos a virada juntos.",
         text: "Amigoooo, feliz Ano Novo! A gente mal se viu esse ano, mas a consideração é a mesma. Deus te abençoe e proteja sempre, você e sua família. Amo você. Deixo aqui um momento bem legal:",
-        photo: "roberio.jpg",
-        specialImage: "roberio-momento.jpg",
+        photo: "Roberio.jpg",
+        specialImage: "Roberio-Momento.jpg",
         spotifyID: "4uUG5RXrOKz7mK1H19rZC0"
     }
 };
@@ -167,4 +167,5 @@ function entrar() {
         setTimeout(() => card.style.transform = "translateX(-5px)", 50);
         setTimeout(() => card.style.transform = "translateX(0)", 100);
     }
+
 }
