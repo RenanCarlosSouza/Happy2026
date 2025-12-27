@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Para Meus Amigos - 2025</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="glass-card" id="card-principal">
+
+        <div id="login-screen">
+            <h1>Moments 2025</h1>
+            <p class="subtitle">"Vamos recordar..."</p>
+
+            <div class="select-wrapper">
+                <select id="user-select" onchange="mostrarDica()">
+                    <option value="" disabled selected>Quem é você?</option>
+                </select>
+            </div>
+
+            <div id="box-dica" class="dica-box">
+                <strong>💡 Dica:</strong> <br><span id="texto-dica">...</span>
+            </div>
+
+            <input type="password" id="password-input" placeholder="Digite a senha...">
+            <button onclick="entrar()">Desbloquear Memórias</button>
+            <p id="msg-erro" class="erro">Senha incorreta!</p>
+        </div>
+
+        <div id="conteudo-secreto">
+            <div class="foto-container">
+                <img id="user-photo" src="" class="foto-perfil" alt="Foto">
+            </div>
+
+            <h2 id="user-name" class="nome-titulo">Nome</h2>
+
+            <div class="texto-carta" id="user-text"></div>
+
+            <div class="momento-especial">
+                <img id="special-image" src="" alt="Momento Especial">
+            </div>
+
+            <div id="spotify-container"></div>
+
+            <button onclick="location.reload()" class="btn-voltar">Voltar</button>
+        </div>
+
+    </div>
+
+    <div id="tema-atual" class="tema-label">Themed: Moonstone Blue</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
